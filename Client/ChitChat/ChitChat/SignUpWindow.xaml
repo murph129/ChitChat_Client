@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:ChitChat"
         mc:Ignorable="d"
         Title="SignUpWindow" Height="400" Width="550">
-    <Grid>
+    <Grid
+        x:Name="SignUpGrid">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
@@ -22,42 +23,42 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        
+
         <Viewbox  Grid.Column="0" HorizontalAlignment="Center" Grid.ColumnSpan="3" Margin="5">
             <TextBlock Name="tbAccountInfo" Text="Sign Up For A Chit Chat Account." TextWrapping="NoWrap" FontWeight="Bold" Foreground="#FFC4CFD6" Opacity="0.85"/>
         </Viewbox>
-        
+
         <Viewbox HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row="1" >
             <TextBlock Name="tbUsername" Margin="10" Text="Username">
-            <TextBlock.Style>
-                <Style TargetType="TextBlock">
-                    <Style.Triggers>
-                        <DataTrigger Binding="{Binding ElementName=txtUsername, Path=IsFocused}" Value="True">
-                            <Setter Property="FontWeight" Value="Medium"/>
-                        </DataTrigger>
-                    </Style.Triggers>
-                </Style>
-            </TextBlock.Style>
-        </TextBlock>
+                <TextBlock.Style>
+                    <Style TargetType="TextBlock">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding ElementName=txtUsername, Path=IsFocused}" Value="True">
+                                <Setter Property="FontWeight" Value="Medium"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
         </Viewbox>
-        
+
         <Viewbox Margin="10" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center">
             <TextBox Name="txtUsername" Width="150">
-            <TextBox.Style>
-                <Style TargetType="TextBox">
-                    <Style.Triggers>
-                        <Trigger Property="IsFocused" Value="True">
-                            <Setter Property="Background" Value="#FFC7FACC"/>
-                        </Trigger>
-                    </Style.Triggers>
-                </Style>
-            </TextBox.Style>
-            <TextBox.Resources>
-                <Style TargetType="{x:Type Border}">
-                    <Setter Property="CornerRadius" Value="4"/>
-                </Style>
-            </TextBox.Resources>
-        </TextBox>
+                <TextBox.Style>
+                    <Style TargetType="TextBox">
+                        <Style.Triggers>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter Property="Background" Value="#FFC7FACC"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBox.Style>
+                <TextBox.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="4"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
         </Viewbox>
 
         <Viewbox HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row="2" >
@@ -246,6 +247,37 @@
                         </Style.Triggers>
                     </Style>
                 </Button.Style>
+            </Button>
+        </Viewbox>
+        <Viewbox Grid.Column="0" Grid.Row="7" Grid.ColumnSpan="1" Margin="21,0,0,7" HorizontalAlignment="Left" VerticalAlignment="Center" Height="40" Width="143">
+            <Button Click="Button_Click" Margin="31,0,121,2" Grid.Row="6" Height="46" VerticalAlignment="Bottom" Grid.RowSpan="2" RenderTransformOrigin="0.5,0.5">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                            <!--Set trigger to bold -->
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+                <Button.RenderTransform>
+
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="-1"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid>
+                            <ContentPresenter HorizontalAlignment="Center"
+                			VerticalAlignment="Center"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Button.Template>
+                <Image Source="images/BackButton.png" Height="46" Width="46"/>
             </Button>
         </Viewbox>
     </Grid>

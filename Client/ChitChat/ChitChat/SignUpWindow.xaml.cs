@@ -19,14 +19,24 @@ namespace ChitChat
     /// </summary>
     public partial class SignUpWindow : Window
     {
-        public SignUpWindow()
+        MainWindow window;
+        Window1 display;
+        public SignUpWindow(Window1 Display)
         {
             InitializeComponent();
+            display = Display;
+
         }
 
         private void btnRegister_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            window = new MainWindow(display);
+            display.SwitchtoMain();
         }
     }
 }

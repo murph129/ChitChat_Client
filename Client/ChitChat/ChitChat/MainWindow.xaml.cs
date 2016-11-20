@@ -21,17 +21,23 @@ namespace ChitChat
     /// </summary>
     public partial class MainWindow : Window
     {
+        SignUpWindow window;
+        Window1 display;
         User m_user;
         List<User> m_users = new List<User>();
+        public int number;
 
-        public MainWindow()
+        public MainWindow(Window1 Display)
         {
             InitializeComponent();
             txtUsername.Focus();
+            display = Display;
+            window = new SignUpWindow(display);
         }
         
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
+            /*Code to log in
             m_user = new User();
             String username = String.Empty;
             String password = String.Empty;
@@ -58,7 +64,7 @@ namespace ChitChat
                         if (IsAuthenticateUser(m_user))
                         {
                             MessageBox.Show("Login successful!", "Login", MessageBoxButton.OK, MessageBoxImage.Exclamation);
-                            myGrid.Children.Clear();                           
+                            //myGrid.Children.Clear();                           
                         }
                     }
                     else
@@ -78,6 +84,9 @@ namespace ChitChat
                     PasswordStatus("Please enter a password.");
                 }
             }
+             * */
+            //Auto Login for now
+            display.SwitchtoChat(); //add userid as parameter
         }
 
         private bool IsAuthenticateUser(User a_user)
@@ -173,8 +182,7 @@ namespace ChitChat
 
         private void btnSignUp_Click(object sender, RoutedEventArgs e)
         {
-            SignUpWindow window = new SignUpWindow();
-            window.Show();
+            display.SwitchtoSignUp();
             window.txtUsername.Focus();
         }
     }
