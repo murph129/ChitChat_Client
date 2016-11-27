@@ -21,7 +21,6 @@ namespace ChitChat
     /// </summary>
     public partial class MainWindow : Window
     {
-        SignUpWindow window;
         Window1 display;
         User m_user;
         List<User> m_users = new List<User>();
@@ -32,7 +31,6 @@ namespace ChitChat
             InitializeComponent();
             txtUsername.Focus();
             display = Display;
-            window = new SignUpWindow(display);
         }
         
         private void btnLogin_Click(object sender, RoutedEventArgs e)
@@ -183,7 +181,6 @@ namespace ChitChat
         private void btnSignUp_Click(object sender, RoutedEventArgs e)
         {
             display.SwitchtoSignUp();
-            window.txtUsername.Focus();
         }
     }
 }

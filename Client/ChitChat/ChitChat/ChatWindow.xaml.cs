@@ -27,14 +27,23 @@ namespace ChitChat
         public ChatWindow(Window1 Display)
         {
             InitializeComponent();
+            txtInput.KeyDown += new System.Windows.Input.KeyEventHandler(tb_KeyDown);
             display = Display;
         }
 
         private void btnSend_Click(object sender, RoutedEventArgs e)
         {
-            txtContent.Text += txtInput.Text;
+            //Send text to Server
+            //PsuedoCode: SendServer(Username + input)
+            //Server displays chat
+            //PsuedoCode: txtContent.text = GetServerChat();
+
+            //Only for local use
+            String input = "Username: " + txtInput.Text;
+            txtContent.Text += input;
             txtContent.Text += Environment.NewLine;
             txtInput.Clear();
+            txtInput.Focus();
         }
 
         private void tb_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
@@ -45,8 +54,9 @@ namespace ChitChat
             }
         }
 
-
-
-        
+        private void ShowProfile_Click(object sender, RoutedEventArgs e)
+        {
+            display.SwitchtoUser();
+        }
     }
 }

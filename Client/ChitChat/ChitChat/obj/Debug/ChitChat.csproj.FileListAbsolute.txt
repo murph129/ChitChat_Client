@@ -82,3 +82,9 @@ H:\Client\ChitChat\ChitChat\obj\Debug\ChitChat.Properties.Resources.resources
 H:\Client\ChitChat\ChitChat\obj\Debug\ChitChat.csproj.GenerateResource.Cache
 H:\Client\ChitChat\ChitChat\obj\Debug\ChatWindow.baml
 H:\Client\ChitChat\ChitChat\obj\Debug\ChatWindow.g.cs
+F:\Client\ChitChat\ChitChat\obj\Debug\ChatWindow.baml
+F:\Client\ChitChat\ChitChat\obj\Debug\DisplayWindow.baml
+F:\Client\ChitChat\ChitChat\obj\Debug\ChatWindow.g.cs
+F:\Client\ChitChat\ChitChat\obj\Debug\DisplayWindow.g.cs
+F:\Client\ChitChat\ChitChat\obj\Debug\UserProfileWindow.g.cs
+F:\Client\ChitChat\ChitChat\obj\Debug\UserProfileWindow.baml

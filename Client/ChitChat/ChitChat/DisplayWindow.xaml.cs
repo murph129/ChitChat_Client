@@ -19,16 +19,17 @@ namespace ChitChat
     /// </summary>
     public partial class Window1 : Window
     {
-        int number;
         MainWindow main;
         SignUpWindow SignUp;
         ChatWindow Chat;
+        UserProfileWindow User;
         public Window1()
         {
             InitializeComponent();
             main = new MainWindow(this);
             SignUp = new SignUpWindow(this);
             Chat = new ChatWindow(this);
+            User = new UserProfileWindow(this);
             SwitchtoMain();
         }
 
@@ -48,6 +49,12 @@ namespace ChitChat
         {
             this.Content = Chat.Content;
             this.Title = Chat.Title;
+        }
+
+        public void SwitchtoUser()
+        {
+            this.Content = User.Content;
+            this.Title = User.Title;
         }
     }
 }

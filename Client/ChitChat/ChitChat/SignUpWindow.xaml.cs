@@ -25,7 +25,7 @@ namespace ChitChat
         {
             InitializeComponent();
             display = Display;
-
+           
         }
 
         private void btnRegister_Click(object sender, RoutedEventArgs e)
