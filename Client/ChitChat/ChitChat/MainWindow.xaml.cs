@@ -62,10 +62,10 @@ namespace ChitChat
                 NetworkStream stream = client.GetStream();
  
                 // Send the message to the connected TcpServer.
-                Byte[] data = System.Text.Encoding.ASCII.GetBytes("connect/n");
+                Byte[] data = System.Text.Encoding.ASCII.GetBytes("connect\n");
                 stream.Write(data, 0, data.Length);
 
-                Byte[] message = System.Text.Encoding.ASCII.GetBytes(m_user.UserName + "," + m_user.Password + "/n");
+                Byte[] message = System.Text.Encoding.ASCII.GetBytes(m_user.UserName + "," + m_user.Password + "\n");
                 stream.Write(message, 0, message.Length);
                 // Receive the TcpServer.response.
  
