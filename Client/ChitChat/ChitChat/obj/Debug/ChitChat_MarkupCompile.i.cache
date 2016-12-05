@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-F:\Client\ChitChat\ChitChat\obj\Debug\
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\obj\Debug\
 ChitChat
 none
 false
 DEBUG;TRACE
-F:\Client\ChitChat\ChitChat\App.xaml
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\App.xaml
 5-1686733941
 
-141459378616
+142000579845
 151270957945
 ChatWindow.xaml;MainWindow.xaml;SignUpWindow.xaml;DisplayWindow.xaml;UserProfileWindow.xaml;
 
-False
+True
 

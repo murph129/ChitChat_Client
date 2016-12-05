@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -35,7 +36,6 @@ namespace ChitChat
         
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            /*Code to log in
             m_user = new User();
             String username = String.Empty;
             String password = String.Empty;
@@ -44,31 +44,54 @@ namespace ChitChat
             password = txtPassword.Text;
 
             ClearUILabels();           
-
+            
             if (!String.IsNullOrEmpty(username) && !String.IsNullOrEmpty(password))
             {
                 m_user.UserName = txtUsername.Text;
                 m_user.Password = txtPassword.Text;
-                ProcessUsers();
-                if (IsNewUser(m_user.UserName))
+                
+                Int32 port = 13000;
+                TcpClient client = new TcpClient("127.0.0.1",8189);
+ 
+                // Translate the passed message into ASCII and store it as a Byte array.
+                
+ 
+                // Get a client stream for reading and writing.
+                //  Stream stream = client.GetStream();
+ 
+                NetworkStream stream = client.GetStream();
+ 
+                // Send the message to the connected TcpServer.
+                Byte[] data = System.Text.Encoding.ASCII.GetBytes("connect/n");
+                stream.Write(data, 0, data.Length);
+
+                Byte[] message = System.Text.Encoding.ASCII.GetBytes(m_user.UserName + "," + m_user.Password + "/n");
+                stream.Write(message, 0, message.Length);
+                // Receive the TcpServer.response.
+ 
+                // Buffer to store the response bytes.
+                data = new Byte[256];
+ 
+                // String to store the response ASCII representation.
+                String[] responseData = null;
+ 
+                // Read the first batch of the TcpServer response bytes.
+                Int32 bytes = stream.Read(data, 0, data.Length);
+                responseData = System.Text.Encoding.ASCII.GetString(data, 0, bytes).Split(',');
+                // Close everything.
+                stream.Close();
+                client.Close();
+                
+                if (responseData[0] == "false")
                 {
-                    UserNameStatus("The username does not exist. \nPlease create an account.");
+                    
+                    // DISPLAY FALSE CONNECTION MESSGE
                 }
                 else
                 {
                     ClearUILabels();
-                    if (IsPassword(m_user))
-                    {
-                        if (IsAuthenticateUser(m_user))
-                        {
-                            MessageBox.Show("Login successful!", "Login", MessageBoxButton.OK, MessageBoxImage.Exclamation);
-                            //myGrid.Children.Clear();                           
-                        }
-                    }
-                    else
-                    {
-                        PasswordStatus("The password is not correct.");
-                    }
+                    MessageBox.Show("Login successful!", "Login", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                    display.SwitchtoChat(); //add userid as parameter
                 }               
             }
             else
@@ -82,9 +105,7 @@ namespace ChitChat
                     PasswordStatus("Please enter a password.");
                 }
             }
-             * */
             //Auto Login for now
-            display.SwitchtoChat(); //add userid as parameter
         }
 
         private bool IsAuthenticateUser(User a_user)
