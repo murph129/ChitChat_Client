@@ -1,0 +1,134 @@
+C:\Users\Alex Lamas\Documents\My C# Projects\ChitChat\ChitChat\ChitChat\bin\Debug\ChitChat.exe.config
+C:\Users\Alex Lamas\Documents\My C# Projects\ChitChat\ChitChat\ChitChat\bin\Debug\ChitChat.exe
+C:\Users\Alex Lamas\Documents\My C# Projects\ChitChat\ChitChat\ChitChat\bin\Debug\ChitChat.pdb
+C:\Users\Alex Lamas\Documents\My C# Projects\ChitChat\ChitChat\ChitChat\obj\Debug\MainWindow.g.cs
+C:\Users\Alex Lamas\Documents\My C# Projects\ChitChat\ChitChat\ChitChat\obj\Debug\App.g.cs
+C:\Users\Alex Lamas\Documents\My C# Projects\ChitChat\ChitChat\ChitChat\obj\Debug\ChitChat_MarkupCompile.cache
+C:\Users\Alex Lamas\Documents\My C# Projects\ChitChat\ChitChat\ChitChat\obj\Debug\ChitChat_MarkupCompile.lref
+C:\Users\Alex Lamas\Documents\My C# Projects\ChitChat\ChitChat\ChitChat\obj\Debug\MainWindow.baml
+C:\Users\Alex Lamas\Documents\My C# Projects\ChitChat\ChitChat\ChitChat\obj\Debug\ChitChat.g.resources
+C:\Users\Alex Lamas\Documents\My C# Projects\ChitChat\ChitChat\ChitChat\obj\Debug\ChitChat.Properties.Resources.resources
+C:\Users\Alex Lamas\Documents\My C# Projects\ChitChat\ChitChat\ChitChat\obj\Debug\ChitChat.csproj.GenerateResource.Cache
+C:\Users\Alex Lamas\Documents\My C# Projects\ChitChat\ChitChat\ChitChat\obj\Debug\ChitChat.exe
+C:\Users\Alex Lamas\Documents\My C# Projects\ChitChat\ChitChat\ChitChat\obj\Debug\ChitChat.pdb
+C:\Users\Alex Lamas\Documents\My C# Projects\ChitChat\ChitChat\ChitChat\obj\Debug\SignUpWindow.g.cs
+C:\Users\Alex Lamas\Documents\My C# Projects\ChitChat\ChitChat\ChitChat\obj\Debug\SignUpWindow.baml
+C:\Users\Alex Lamas\Documents\My C# Projects\ChitChat\ChitChat\ChitChat\obj\Debug\ChitChat.csprojResolveAssemblyReference.cache
+C:\Client\ChitChat\ChitChat\bin\Debug\ChitChat.exe.config
+C:\Client\ChitChat\ChitChat\obj\Debug\ChitChat.exe
+C:\Client\ChitChat\ChitChat\obj\Debug\ChitChat.pdb
+C:\Client\ChitChat\ChitChat\obj\Debug\ChitChat.csprojResolveAssemblyReference.cache
+C:\Client\ChitChat\ChitChat\obj\Debug\SignUpWindow.g.cs
+C:\Client\ChitChat\ChitChat\obj\Debug\App.g.cs
+C:\Client\ChitChat\ChitChat\obj\Debug\ChitChat_MarkupCompile.cache
+C:\Client\ChitChat\ChitChat\obj\Debug\ChitChat_MarkupCompile.lref
+C:\Client\ChitChat\ChitChat\bin\Debug\ChitChat.exe
+C:\Client\ChitChat\ChitChat\bin\Debug\ChitChat.pdb
+C:\Client\ChitChat\ChitChat\obj\Debug\MainWindow.g.cs
+C:\Client\ChitChat\ChitChat\obj\Debug\MainWindow.baml
+C:\Client\ChitChat\ChitChat\obj\Debug\SignUpWindow.baml
+C:\Client\ChitChat\ChitChat\obj\Debug\ChitChat.g.resources
+C:\Client\ChitChat\ChitChat\obj\Debug\ChitChat.Properties.Resources.resources
+C:\Client\ChitChat\ChitChat\obj\Debug\ChitChat.csproj.GenerateResource.Cache
+G:\VS Projects\Client\ChitChat\ChitChat\bin\Debug\ChitChat.exe.config
+G:\VS Projects\Client\ChitChat\ChitChat\obj\Debug\ChitChat.exe
+G:\VS Projects\Client\ChitChat\ChitChat\obj\Debug\ChitChat.pdb
+G:\VS Projects\Client\ChitChat\ChitChat\bin\Debug\ChitChat.exe
+G:\VS Projects\Client\ChitChat\ChitChat\bin\Debug\ChitChat.pdb
+G:\VS Projects\Client\ChitChat\ChitChat\obj\Debug\ChitChat.csprojResolveAssemblyReference.cache
+G:\VS Projects\Client\ChitChat\ChitChat\obj\Debug\MainWindow.g.cs
+G:\VS Projects\Client\ChitChat\ChitChat\obj\Debug\SignUpWindow.g.cs
+G:\VS Projects\Client\ChitChat\ChitChat\obj\Debug\App.g.cs
+G:\VS Projects\Client\ChitChat\ChitChat\obj\Debug\ChitChat_MarkupCompile.cache
+G:\VS Projects\Client\ChitChat\ChitChat\obj\Debug\ChitChat_MarkupCompile.lref
+G:\VS Projects\Client\ChitChat\ChitChat\obj\Debug\MainWindow.baml
+G:\VS Projects\Client\ChitChat\ChitChat\obj\Debug\SignUpWindow.baml
+G:\VS Projects\Client\ChitChat\ChitChat\obj\Debug\ChitChat.g.resources
+G:\VS Projects\Client\ChitChat\ChitChat\obj\Debug\ChitChat.Properties.Resources.resources
+G:\VS Projects\Client\ChitChat\ChitChat\obj\Debug\ChitChat.csproj.GenerateResource.Cache
+F:\Client\ChitChat\ChitChat\bin\Debug\ChitChat.exe.config
+F:\Client\ChitChat\ChitChat\obj\Debug\ChitChat.exe
+F:\Client\ChitChat\ChitChat\obj\Debug\ChitChat.pdb
+F:\Client\ChitChat\ChitChat\bin\Debug\ChitChat.exe
+F:\Client\ChitChat\ChitChat\bin\Debug\ChitChat.pdb
+F:\Client\ChitChat\ChitChat\obj\Debug\ChitChat.csprojResolveAssemblyReference.cache
+F:\Client\ChitChat\ChitChat\obj\Debug\MainWindow.g.cs
+F:\Client\ChitChat\ChitChat\obj\Debug\SignUpWindow.g.cs
+F:\Client\ChitChat\ChitChat\obj\Debug\App.g.cs
+F:\Client\ChitChat\ChitChat\obj\Debug\ChitChat_MarkupCompile.cache
+F:\Client\ChitChat\ChitChat\obj\Debug\ChitChat_MarkupCompile.lref
+F:\Client\ChitChat\ChitChat\obj\Debug\MainWindow.baml
+F:\Client\ChitChat\ChitChat\obj\Debug\SignUpWindow.baml
+F:\Client\ChitChat\ChitChat\obj\Debug\ChitChat.g.resources
+F:\Client\ChitChat\ChitChat\obj\Debug\ChitChat.Properties.Resources.resources
+F:\Client\ChitChat\ChitChat\obj\Debug\ChitChat.csproj.GenerateResource.Cache
+H:\Client\ChitChat\ChitChat\bin\Debug\ChitChat.exe.config
+H:\Client\ChitChat\ChitChat\obj\Debug\ChitChat.exe
+H:\Client\ChitChat\ChitChat\obj\Debug\ChitChat.pdb
+H:\Client\ChitChat\ChitChat\bin\Debug\ChitChat.exe
+H:\Client\ChitChat\ChitChat\bin\Debug\ChitChat.pdb
+H:\Client\ChitChat\ChitChat\obj\Debug\ChitChat.csprojResolveAssemblyReference.cache
+H:\Client\ChitChat\ChitChat\obj\Debug\DisplayWindow.baml
+H:\Client\ChitChat\ChitChat\obj\Debug\MainWindow.g.cs
+H:\Client\ChitChat\ChitChat\obj\Debug\SignUpWindow.g.cs
+H:\Client\ChitChat\ChitChat\obj\Debug\DisplayWindow.g.cs
+H:\Client\ChitChat\ChitChat\obj\Debug\App.g.cs
+H:\Client\ChitChat\ChitChat\obj\Debug\ChitChat_MarkupCompile.cache
+H:\Client\ChitChat\ChitChat\obj\Debug\ChitChat_MarkupCompile.lref
+H:\Client\ChitChat\ChitChat\obj\Debug\MainWindow.baml
+H:\Client\ChitChat\ChitChat\obj\Debug\SignUpWindow.baml
+H:\Client\ChitChat\ChitChat\obj\Debug\ChitChat.g.resources
+H:\Client\ChitChat\ChitChat\obj\Debug\ChitChat.Properties.Resources.resources
+H:\Client\ChitChat\ChitChat\obj\Debug\ChitChat.csproj.GenerateResource.Cache
+H:\Client\ChitChat\ChitChat\obj\Debug\ChatWindow.baml
+H:\Client\ChitChat\ChitChat\obj\Debug\ChatWindow.g.cs
+F:\Client\ChitChat\ChitChat\obj\Debug\ChatWindow.baml
+F:\Client\ChitChat\ChitChat\obj\Debug\DisplayWindow.baml
+F:\Client\ChitChat\ChitChat\obj\Debug\ChatWindow.g.cs
+F:\Client\ChitChat\ChitChat\obj\Debug\DisplayWindow.g.cs
+F:\Client\ChitChat\ChitChat\obj\Debug\UserProfileWindow.g.cs
+F:\Client\ChitChat\ChitChat\obj\Debug\UserProfileWindow.baml
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\bin\Debug\ChitChat.exe.config
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\obj\Debug\ChitChat.exe
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\obj\Debug\ChitChat.pdb
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\bin\Debug\ChitChat.exe
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\bin\Debug\ChitChat.pdb
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\obj\Debug\ChitChat.csprojResolveAssemblyReference.cache
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\obj\Debug\ChatWindow.baml
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\obj\Debug\DisplayWindow.baml
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\obj\Debug\ChatWindow.g.cs
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\obj\Debug\MainWindow.g.cs
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\obj\Debug\SignUpWindow.g.cs
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\obj\Debug\DisplayWindow.g.cs
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\obj\Debug\UserProfileWindow.g.cs
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\obj\Debug\App.g.cs
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\obj\Debug\ChitChat_MarkupCompile.cache
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\obj\Debug\ChitChat_MarkupCompile.lref
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\obj\Debug\MainWindow.baml
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\obj\Debug\SignUpWindow.baml
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\obj\Debug\UserProfileWindow.baml
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\obj\Debug\ChitChat.g.resources
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\obj\Debug\ChitChat.Properties.Resources.resources
+C:\Users\Stephen\Documents\CLASSES\CNIT325\Client\Client\ChitChat\ChitChat\obj\Debug\ChitChat.csproj.GenerateResource.Cache
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\bin\Debug\ChitChat.exe.config
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\obj\Debug\ChitChat.exe
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\obj\Debug\ChitChat.pdb
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\obj\Debug\ChitChat.csprojResolveAssemblyReference.cache
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\obj\Debug\ChatWindow.baml
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\obj\Debug\DisplayWindow.baml
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\obj\Debug\ChatWindow.g.cs
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\obj\Debug\MainWindow.g.cs
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\obj\Debug\SignUpWindow.g.cs
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\obj\Debug\DisplayWindow.g.cs
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\obj\Debug\UserProfileWindow.g.cs
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\obj\Debug\App.g.cs
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\obj\Debug\ChitChat_MarkupCompile.cache
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\obj\Debug\ChitChat_MarkupCompile.lref
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\bin\Debug\ChitChat.exe
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\bin\Debug\ChitChat.pdb
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\obj\Debug\MainWindow.baml
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\obj\Debug\SignUpWindow.baml
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\obj\Debug\UserProfileWindow.baml
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\obj\Debug\ChitChat.g.resources
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\obj\Debug\ChitChat.Properties.Resources.resources
+C:\Users\Dakota\Desktop\ChitChat_Client-master\Client\ChitChat\ChitChat\obj\Debug\ChitChat.csproj.GenerateResource.Cache
