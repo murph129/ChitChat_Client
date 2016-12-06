@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -23,16 +24,47 @@ namespace ChitChat
     {
 
         Window1 display;
+        TcpClient client;
+        NetworkStream stream;
+        String userName;
+        bool started = false;
+
+        public String UserName
+        {
+            get
+            {
+                return userName;
+            }
+            set
+            {
+                userName = value;
+            }
+        }
+
+        public bool Started
+        {
+            get
+            {
+                return started;
+            }
+            set
+            {
+                started = value;
+            }
+        }
 
         public ChatWindow(Window1 Display)
         {
             InitializeComponent();
             txtInput.KeyDown += new System.Windows.Input.KeyEventHandler(tb_KeyDown);
             display = Display;
+
         }
 
         private void btnSend_Click(object sender, RoutedEventArgs e)
         {
+            Byte[] message = System.Text.Encoding.ASCII.GetBytes(txtInput.Text + "\n");
+            stream.Write(message, 0, message.Length);
             //Send text to Server
             //PsuedoCode: SendServer(Username + input)
             //Server displays chat
@@ -57,6 +89,31 @@ namespace ChitChat
         private void ShowProfile_Click(object sender, RoutedEventArgs e)
         {
             display.SwitchtoUser();
+        }
+
+        public void startListener()
+        {
+            started = true;
+            client = new TcpClient("127.0.0.1", 8190);
+            stream = client.GetStream();
+            Byte[] message = System.Text.Encoding.ASCII.GetBytes("connect\n");
+            stream.Write(message, 0, message.Length);
+            Byte[] user = System.Text.Encoding.ASCII.GetBytes(userName + "\n");
+            stream.Write(user, 0, user.Length);
+
+            while (true)
+            {
+                Byte[] data = new Byte[256];
+
+                // String to store the response ASCII representation.
+                String[] responseData = null;
+
+                // Read the first batch of the TcpServer response bytes.
+                Int32 bytes = stream.Read(data, 0, data.Length);
+                responseData = System.Text.Encoding.ASCII.GetString(data, 0, bytes).Split(',');
+                txtContent.Text += responseData;
+                txtContent.Text += Environment.NewLine;
+            }
         }
     }
 }

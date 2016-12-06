@@ -91,7 +91,7 @@ namespace ChitChat
                 {
                     ClearUILabels();
                     MessageBox.Show("Login successful!", "Login", MessageBoxButton.OK, MessageBoxImage.Exclamation);
-                    display.SwitchtoChat(); //add userid as parameter
+                    display.SwitchtoChat(m_user.UserName); //add userid as parameter
                 }               
             }
             else

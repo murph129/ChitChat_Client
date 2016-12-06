@@ -45,10 +45,15 @@ namespace ChitChat
             this.Title = SignUp.Title;
         }
 
-        public void SwitchtoChat()
+        public void SwitchtoChat(String name)
         {
             this.Content = Chat.Content;
             this.Title = Chat.Title;
+            Chat.UserName = name;
+            if(!Chat.Started)
+            {
+                Chat.startListener();
+            }
         }
 
         public void SwitchtoUser()
