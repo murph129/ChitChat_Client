@@ -1,0 +1,12 @@
+﻿<Window x:Class="ChitChat.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DisplayWindow" Height="700" Width="1040">
+    <Grid Margin="0,0,2,-4">
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="69*"/>
+        <ColumnDefinition Width="88*"/>
+    </Grid.ColumnDefinitions>
+
+</Grid>
+</Window>
