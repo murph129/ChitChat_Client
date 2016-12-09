@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,6 +34,11 @@ namespace ChitChat
             SwitchtoMain();
         }
 
+        private void DisplayWindows_ClosedEvent(object sender, RoutedEventArgs e)
+        {
+            this.Close();            
+        }
+
         public void SwitchtoMain()
         {
             this.Content = main.Content;
@@ -44,11 +50,12 @@ namespace ChitChat
             this.Content = SignUp.Content;
             this.Title = SignUp.Title;
         }
-
-        public void SwitchtoChat()
+       
+        public void SwitchtoChat(String name)
         {
             this.Content = Chat.Content;
             this.Title = Chat.Title;
+            Chat.UserName = name;           
         }
 
         public void SwitchtoUser()
